@@ -1,0 +1,207 @@
+{
+
+  "GeneralConfig": {
+
+    "ProjectType": null,
+
+    "NotRequireFiles": [
+
+      {
+
+        "Item1": "Properties",
+
+        "Item2": "AssemblyInfo.cs"
+
+      },
+
+      {
+
+        "Item1": "",
+
+        "Item2": "Global.asax.cs"
+
+      },
+
+      {
+
+        "Item1": "",
+
+        "Item2": "Global.asax"
+
+      },
+
+      {
+
+        "Item1": "",
+
+        "Item2": "Web.Debug.config"
+
+      },
+
+      {
+
+        "Item1": "",
+
+        "Item2": "Web.Release.config"
+
+      }
+
+    ],
+
+    "NotRequiredDir": [
+
+      {
+
+        "Item1": "",
+
+        "Item2": "App_Start"
+
+      },
+
+      {
+
+        "Item1": "",
+
+        "Item2": "bin"
+
+      },
+
+      {
+
+        "Item1": "",
+
+       "Item2": "obj"
+
+      }
+
+    ],
+
+    "FileConfigs": [
+
+      {
+
+        "FileExtension": "cs",
+
+        "FileName": null,
+
+        "isRegex": false,
+
+        "Replacers": [
+
+          {
+
+            "ActualCode": "System.Web.Mvc",
+
+            "ReplacingCode": "Microsoft.AspNetCore.Mvc",
+
+            "isRegex": false
+
+          },
+
+          {
+
+            "ActualCode": "System.Configuration",
+
+            "ReplacingCode": "",
+
+            "isRegex": false
+
+          },
+
+          {
+
+            "ActualCode": "System.Drawing",
+
+            "ReplacingCode": "System.Drawing.Common",
+
+            "isRegex": false
+
+          }
+
+        ]
+
+      }
+
+    ],
+
+    "FileAdditions": null
+
+  },
+
+  "ProjectConfigs": [
+
+    {
+
+      "ProjectType": "ASP.NET Core Web App",
+
+      "NotRequireFiles": null,
+
+      "NotRequiredDir": null,
+
+      "FileConfigs": null,
+
+      "FileAdditions": [
+
+        {
+
+          "FileName": "Program.cs",
+
+          "FolderPath": null,
+
+          "FileRepoPath": "\\FileRepo\\mvcprogram.txt"
+
+        },
+
+        {
+
+          "FileName": "Startup.cs",
+
+          "FolderPath": null,
+
+          "FileRepoPath": "\\FileRepo\\mvcstartup.txt"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "ProjectType": "ASP.NET Core Empty",
+
+      "NotRequireFiles": null,
+
+      "NotRequiredDir": null,
+
+      "FileConfigs": null,
+
+      "FileAdditions": [
+
+        {
+
+          "FileName": "Program.cs",
+
+          "FolderPath": null,
+
+          "FileRepoPath": "\\FileRepo\\mvcprogram.txt"
+
+        },
+
+        {
+
+          "FileName": "Startup.cs",
+
+          "FolderPath": null,
+
+          "FileRepoPath": "\\FileRepo\\mvcstartup.txt"
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}

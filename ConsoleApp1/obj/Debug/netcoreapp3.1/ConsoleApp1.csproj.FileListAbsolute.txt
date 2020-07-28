@@ -1,0 +1,15 @@
+F:\Repos\CTSPOC\CodeReplacement\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+F:\Repos\CTSPOC\CodeReplacement\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+F:\Repos\CTSPOC\CodeReplacement\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+F:\Repos\CTSPOC\CodeReplacement\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+F:\Repos\CTSPOC\CodeReplacement\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+F:\Repos\CTSPOC\CodeReplacement\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+F:\Repos\CTSPOC\CodeReplacement\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+F:\Repos\CTSPOC\CodeReplacement\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+F:\Repos\CTSPOC\CodeReplacement\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+F:\Repos\CTSPOC\CodeReplacement\ConsoleApp1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\Repos\CTSPOC\CodeReplacement\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+F:\Repos\CTSPOC\CodeReplacement\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CopyComplete
+F:\Repos\CTSPOC\CodeReplacement\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+F:\Repos\CTSPOC\CodeReplacement\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+F:\Repos\CTSPOC\CodeReplacement\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache

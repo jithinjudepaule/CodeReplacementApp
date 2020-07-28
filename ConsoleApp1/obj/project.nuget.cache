@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rk6Kn1oZsyX2QjQlFFbvhRblkmJgBPfw5GW0JC6tCvsKMsjnTZT7xZFpJxMu7xd7OysVfG2Z0sunpQ9DyK3Tsg==",
+  "success": true,
+  "projectFilePath": "F:\\Repos\\CTSPOC\\CodeReplacement\\ConsoleApp1\\CodeReplacement.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sony\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
