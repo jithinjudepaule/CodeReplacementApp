@@ -98,6 +98,27 @@
 
           },
 
+
+          {
+
+            "ActualCode": "System.Web.Http",
+
+            "ReplacingCode": "Microsoft.AspNetCore.Mvc",
+
+            "isRegex": false
+
+          },
+
+          {
+
+            "ActualCode": "System.Web",
+
+            "ReplacingCode": "Microsoft.AspNetCore.Mvc",
+
+            "isRegex": false
+
+          },
+
           {
 
             "ActualCode": "System.Configuration",

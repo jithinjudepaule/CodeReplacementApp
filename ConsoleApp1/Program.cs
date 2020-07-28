@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.IO;
+using System.Linq;
 
 namespace ConsoleApp1
 {
@@ -22,13 +23,21 @@ namespace ConsoleApp1
             var oldProjectDirectory = @"F:\MigrationProjects\WebApiToCoreMigration-master\SimpleWebApi";
             string[] filePaths = Directory.GetFiles(oldProjectDirectory, "*.cs",
                                          SearchOption.AllDirectories);
+
+            var replacers = myDeserializedClass.GeneralConfig.FileConfigs.Where(x => x.FileExtension == "cs").Select(x => x.Replacers).FirstOrDefault();
+            int i = 1;
             foreach (var filePath in filePaths)
             {
                 using (StreamReader reader = new StreamReader($@"{filePath}"))
                 {
                     string textContent = reader.ReadToEnd();
-                    string newTextContent = textContent.Replace("System.Web", "Microsoft.AspNetCore.Mvc");
-                    System.IO.File.WriteAllText(@"F:\MigrationProjects\TestFiles\HomeController.cs", newTextContent);
+                    
+                    foreach (var replacer in replacers)
+                    {
+                        textContent = textContent.Replace(replacer.ActualCode, replacer.ReplacingCode);
+                    }
+                    i++;
+                    System.IO.File.WriteAllText(@$"F:\MigrationProjects\TestFiles\HomeController{i}.cs", textContent);
 
 
 
